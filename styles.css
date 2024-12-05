@@ -20,7 +20,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: red;
+    text-decoration: underline;
 }
 .upper{
     display: flex;
@@ -39,7 +39,7 @@ a:hover{
     color: white;
     cursor: pointer;
     border: none;
-    margin-top: -9px;
+    margin-top: -4px;
 }
 .upper-button:hover{
     background-color: azure;
@@ -96,9 +96,64 @@ a:hover{
 }
 .lower{
     display: flex;
-    height: 200px;
+    height: 250px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: light italic;
     color: #1f2937;
+    flex-direction: column;
+}
+.tag{
+    margin-left: auto;
+    margin-top: -20px;
+}
+.footer{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    height: 160px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-txt{
+    margin-left: -50%;
+    margin-top: -4%;
+}
+.footer-subtxt{
+    margin-left: -21%;
+    margin-top: -2%;
+    font-style: light;
+    font-weight: 100; 
+}
+.footer-button{
+    border-radius: 5px;
+    margin-left: 70%;
+    margin-top: -7%;
+    width: 120px;
+    height: 28px;
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: #3882F6;
+    color: white;
+}
+.footer-button:hover{
+    background-color: white;
+    color: #3882F6;
+}
+.copyright{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 900;
 }
